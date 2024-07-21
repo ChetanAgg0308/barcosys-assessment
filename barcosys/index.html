@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Layout with Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div class="container-fluid header">
+        <div class="row">
+            <!-- Left Column -->
+            <div class="col-md-4 col-sm-12">
+                <div class="p-3">
+                    <img src="./assets/smt-round.png" alt="smt round image" class="header-smt-logo" />
+                    <span class="hello-text">HELLO <span class="nikhil-text">NIKHIL134</span></span>
+                </div>
+            </div>
+            <!-- Middle Column -->
+            <div class="col-md-4 col-sm-12 flag-container">
+                <div class="p-3 text-center">
+                    <img src="./assets/flag.png" alt="flag image" class="img-fluid flag" />
+                    <p class="en">EN</p>
+                </div>
+            </div>
+            <!-- Right Column -->
+            <div class="col-md-4 col-sm-12">
+                <div class="p-3 nft-section">
+                    <img src="./assets/nft-free.png" alt="nft-free" class="nft-logo" />
+                    <span class="nft-free-text">MY NFT FREE</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button Section -->
+    <div class="container-fluid header">
+        <div class="row">
+            <!-- Left Column -->
+            <div class="col-md-4 col-sm-12">
+                <div class="">
+                    <button type="button" class="btn referral-btn">
+                        <img src="./assets/referral-link.png" alt="referral link" class="upgrade-image" />
+                        Referral Link
+                    </button>
+                </div>
+            </div>
+            <!-- Middle Column -->
+            <div class="col-md-4 col-sm-12">
+                <div class="p-3 text-center"></div>
+            </div>
+            <!-- Right Column -->
+            <div class="col-md-4 col-sm-12">
+                <div class="nft-section">
+                    <button type="button" class="btn upgrade-btn">
+                        <img src="./assets/upgrade.png" alt="upgrade" class="upgrade-image" />
+                        Upgrade
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Saffron Mount Section -->
+    <div class="container-fluid saffron-container">
+        <div class="text-center saffron-box">
+            <img src="./assets/layer1.png" alt="layer1" class="layer" />
+            <p class="saffron-mount">Saffron Mount</p>
+        </div>
+        <div class="container my-4 stat-container">
+            <div class="d-flex justify-content-between">
+                <button type="button" class="btn buy-smt-btn">Buy Smt</button>
+                <button type="button" class="btn my-stat-btn">
+                    <img src="./assets/statistic.png" alt="statistic" class="upgrade-image" />
+                    My Stats
+                </button>
+                <button type="button" class="btn my-team-btn">
+                    <img src="./assets/teams.png" alt="teams" class="upgrade-image" />
+                    My Team
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Auto Clicker Section -->
+    <div class="container-fluid auto-clicker-container">
+        <div class="row">
+            <!-- Left Column -->
+            <div class="col-md-3 col-sm-12">
+                <div class="">
+                    <span class="auto-clicker">AutoClicker
+                        <img src="./assets/auto-clicker.png" alt="auto clicker" class="auto-clicker-img" />
+                    </span>
+                </div>
+                <div class="row toggle-btn">
+                    <button class="on-btn">ON</button>
+                    <button class="off-btn">OFF</button>
+                </div>
+            </div>
+            <!-- Middle Column -->
+            <div class="col-md-6 col-sm-12">
+                <div class="p-3 text-center"></div>
+            </div>
+            <!-- Right Column -->
+            <div class="col-md-3 col-sm-12 text-right">
+                <div class="">
+                    <span class="leader-board">LeaderBoard
+                        <img src="./assets/leaderboard.png" alt="leaderboard" class="leader-img" />
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="outside-circle-container">
+                <div class="circle-container">
+                    <img src="./assets/saffron-logo.png" class="saffron-round" alt="Round Image" />
+                </div>
+                <div id="parent-circle">
+                    <div class=""></div>
+                    <div class="circle blue"></div>
+                    <div class=""></div>
+                    <div class=""></div>
+                    <div class=""></div>
+                </div>
+            </div>
+        </div>
+        <!-- Tabs Left Section -->
+        <div class="tabs-left">
+            <p class="tabs-left-text text-center">
+                TABS LEFT
+                <span class="tabs-1000">
+                    <img src="./assets/nft-free.png" alt="tabs left" class="tab-left-image" />
+                    1000
+                </span>
+            </p>
+            <div class="horizontal-line"></div>
+        </div>
+        <div class="tabs-left">
+            <p class="tabs-left-text text-center mb-0">
+                BALANCE <span class="tabs-1000">SMT</span>
+            </p>
+            <p class="text-center">
+                <img src="./assets/layer1.png" alt="saffron value" class="coin-image" />
+                <span class="zero-digit"> 0. 0000</span>
+            </p>
+            <div class="balance-horizontal-line"></div>
+            <p class="tabs-left-text text-center mb-0">TOTAL ENERGY BALANCE</p>
+            <div class="tabs-1000 text-center">
+                <img src="./assets/nft-free.png" alt="tabs left" class="tab-left-image" />
+                <span class="zero-digit">0</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Tabs Section -->
+    <div class="container-fluid">
+        <div class="tab-container">
+            <div class="row">
+                <!-- My Bank Tab -->
+                <div class="col-md-3 col-sm-12 bank-container">
+                    <div class="my-bank-container">
+                        <img src="./assets/my-bank.png" alt="my bank" class="tab-img" />
+                    </div>
+                    <p class="tab-text">My Bank</p>
+                </div>
+                <!-- My Team Tab -->
+                <div class="col-md-3 col-sm-12 team-container">
+                    <div class="my-team-container">
+                        <img src="./assets/my-team.png" alt="my team" class="tab-img" />
+                    </div>
+                    <p class="tab-text">My Team</p>
+                </div>
+                <!-- Staking Tab -->
+                <div class="col-md-3 col-sm-12 staking-container">
+                    <div class="my-staking-container">
+                        <img src="./assets/staking.png" alt="staking" class="tab-img" />
+                    </div>
+                    <p class="tab-text">Staking</p>
+                </div>
+                <!-- Airdrops Tab -->
+                <div class="col-md-3 col-sm-12 airdrop-container">
+                    <a href="./airdrops.html">
+                        <div class="my-airdrops-container">
+                            <img src="./assets/airdrops.png" alt="airdrops" class="tab-img" />
+                        </div>
+                        <p class="tab-text">Airdrops</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

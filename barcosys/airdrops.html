@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Drops</title>
+    <!-- Bootstrap CSS for styling -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS for additional styles -->
+    <link href="./style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Main container with full-width -->
+    <div class="container-fluid">
+        <!-- Container for air drop elements -->
+        <div class="air-drops-container">
+            <!-- First row with air drop image and text -->
+            <div class="row">
+                <div class="col-12 air-drop text-center">
+                    <!-- Air drop image -->
+                    <img src="./assets/airdrop-white.png" class="air-drop-image" alt="air drop image" />
+                    <!-- Air drops text -->
+                    <span class="airdrops">AIRDROPS</span>
+                </div>
+            </div>
+            <!-- Second row with active airdrops section -->
+            <div class="row">
+                <div class="col-12 active-airdrops text-center">
+                    <!-- Left decorative line image -->
+                    <img src="./assets/left-line.png" alt="left line" class="left-line" />
+                    <!-- Active airdrops text -->
+                    <span class="active-airdrops-text">ACTIVE AIRDROPS</span>
+                    <!-- Right decorative line image -->
+                    <img src="./assets/right-line.png" alt="right line" class="right-line" />
+                </div>
+            </div>
+            <!-- Container for active airdrop items -->
+            <div id="airdrop-container" class="row"></div>
+            <!-- Background image container with text overlay -->
+            <div class="background-image-container">
+                <!-- Text overlay with additional information -->
+                <div class="text-overlay">
+                    <p class="more-details more-airdrops">MORE AIRDROPS</p>
+                    <p class="more-details coming-soon">ARE COMING SOON!</p>
+                    <p class="more-details stay-tuned">STAY TUNED</p>
+                </div>
+            </div>
+            <!-- Third row with completed airdrops section -->
+            <div class="row">
+                <div class="col-12 active-airdrops text-center">
+                    <!-- Left decorative line image -->
+                    <img src="./assets/left-line.png" alt="left line" class="left-line" />
+                    <!-- Completed airdrops text -->
+                    <span class="active-airdrops-text">COMPLETED AIRDROPS</span>
+                    <!-- Right decorative line image -->
+                    <img src="./assets/right-line.png" alt="right line" class="right-line" />
+                </div>
+            </div>
+            <!-- Container for completed airdrop items -->
+            <div id="second-airdrop-container" class="row second-list"></div>
+        </div>
+    </div>
+    <!-- Closing tag for container-fluid div, it seems to be redundant -->
+    </div>
+    <!-- Bootstrap JS and its dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS script -->
+    <script src="./index.js"></script>
+</body>
+
+</html>
